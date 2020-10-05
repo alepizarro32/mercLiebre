@@ -1,0 +1,94 @@
+/*
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+
+Familia: 'Roboto'
+
+tamaños 
+Párrafos en general: 12px
+Titulares (Basado en tu última visita / Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px
+
+
+
+Párrafos en general: 12px
+Titulares (Basado en tu última visita / Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px
+
+ */
+
+ /* STYLE */
+ p, h1, h2, h3, h4 {
+    font-family: Roboto;
+}
+
+header {    
+    background-color:#EAC926 ;
+}
+
+p{ font-size: 12px;
+    
+}
+
+main {
+    width: 30em;
+}
+
+article {
+    border-bottom: 12px #ebebeb;
+}
+
+/* CLASS */
+
+
+
+.titulares{
+    color: #666; 
+    font-size: 24px;
+    background-color: #ebebeb;
+    padding: 5%;
+    size: cover;
+  
+
+
+}
+
+.precios{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.descuentos{
+    color:#39b54a;
+    font-size: 16px;
+}
+
+.descipciones{
+    color: #666;
+    font-size: 16px;
+}
+
+#banner {
+    width: 100%;
+}   
+
+.icon-carga {
+    color: #39b54a;
+
+}
+
+.icon-azul {
+    color: #03264C;
+}
+
+.imagen-producto {
+    width: 300px;
+}
